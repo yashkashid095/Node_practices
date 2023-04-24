@@ -85,3 +85,17 @@ app.route('/api/v1/tour').get(getRouteHandler).post(postRouteHandler)
 app.route('/api/v1/tour/:name').get(getParamRouteHandler).patch(patchRouteHandler).delete(deleteRouteHandler)
 app.listen(port,()=>console.log("server is running"))
 //yash kashid
+
+
+
+/*
+
+
+git remote add origin https://github.com/yashkashid095/Node_practices.git
+git branch -M main
+git push -u origin main
+
+
+
+
+*/
